@@ -1,5 +1,4 @@
 const accountSid = 'AC6a2fa90cd681242f9d88219e53285ceb';
-// const authToken = '87d127dd62e08ede658693d61ce7063b';
 const myVarr = require('./myToken.js');
 const client = require('twilio')(accountSid, myVarr.token1);
 
