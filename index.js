@@ -1,7 +1,7 @@
 const accountSid = 'AC6a2fa90cd681242f9d88219e53285ceb';
 const myVarr = require('./myToken.js');
 const client = require('twilio')(accountSid, myVarr.token1);
-
+// the authToken is hidden
 
 exports.handler = async (event) => {
     console.log("Sending that ish")
